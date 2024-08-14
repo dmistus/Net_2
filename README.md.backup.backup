@@ -212,12 +212,14 @@ resource "yandex_lb_network_load_balancer" "balancer" {
 
 ![](img/8.png)
 
-Сайт по прежнему доступен.
-
 После срабатывания Healthcheck, выключенные виртуальные машины LAMP были заново запущены:
 
 ![](img/9.png)
 
+
+Ссылка на terraform-файлы:
+ 
+https://github.com/dmistus/Net_2/tree/main/src
 
 
 
